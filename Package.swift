@@ -16,7 +16,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/apple/swift-docc-plugin.git", .upToNextMajor(from: "1.4.3")),
-        .package(url: "https://github.com/dotmain/swift-secp256k1", exact: "0.21.2"),
+        .package(url: "https://github.com/dotmain/swift-secp256k1.git", exact: "0.21.2"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMajor(from: "1.8.4")),
         .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.1.4"))
     ],
